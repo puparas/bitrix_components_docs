@@ -1,124 +1,63 @@
-# Элемент управления "Календарь"
-
-Документация для разработчиков
-
-[Документация для разработчиков](https://dev.1c-bitrix.ru/api_help/)
-[Документация по D7](https://dev.1c-bitrix.ru/api_d7/)
-[Документация по REST](https://dev.1c-bitrix.ru/rest_help/)
-[Пользовательская документация](https://dev.1c-bitrix.ru/user_help/)
-
-Темная тема
-
-[Основные сведения](/user_help/index.php)
-[Реализация и системные требования](/user_help/reqintro.php)
-
-[Справочная система и документация](/user_help/help/index.php)
-
-[Контент](/user_help/content/index.php)
-
-[Сайты 24](/user_help/sites24/index.php)
-
-[Маркетинг](/user_help/marketing/index.php)
-
-[Магазин](/user_help/store/index.php)
-
-[Клиенты](/user_help/clients/index.php)
-
-[Сервисы](/user_help/service/index.php)
-
-[Веб-аналитика](/user_help/statistic/index.php)
-
-[Marketplace](/user_help/marketplace/index.php)
-
-[Настройки](/user_help/settings/index.php)
-
-[Компоненты](/user_help/components/index.php)
-
-[CRM (КП)](/user_help/components/crm/index.php)
-
-[Корпоративный портал (КП)](/user_help/components/intranet/index.php)
-
-[Сайты 24](/user_help/components/landing/index.php)
-
-[Контент](/user_help/components/content/index.php)
-
-[Сервисы](/user_help/components/services/index.php)
-
-[Общение](/user_help/components/obschenie/index.php)
-
-[Магазин](/user_help/components/magazin/index.php)
-
-[Служебные](/user_help/components/sluzhebnie/index.php)
-
-[navigation](/user_help/components/sluzhebnie/navigation/index.php)
-
-[Безопасность](/user_help/components/sluzhebnie/security/index.php)
-
-[Включаемые области](/user_help/components/sluzhebnie/included_regions/index.php)
-
-[Поиск](/user_help/components/sluzhebnie/search/index.php)
-
-[Пользователь](/user_help/components/sluzhebnie/user/index.php)
-
-[Статистика](/user_help/components/sluzhebnie/statistic/index.php)
-
-[Соц. закладки и сети](/user_help/components/sluzhebnie/main_share.php)
-[Упрощенный HTML-редактор](/user_help/components/sluzhebnie/fileman_light_editor.php)
-[Форма обратной связи](/user_help/components/sluzhebnie/main_feedback.php)
-[Элемент управления "Календарь"](/user_help/components/sluzhebnie/main_calendar.php)
-[Элемент управления "Палитра"](/user_help/components/sluzhebnie/main_colorpicker.php)
-[Элемент управления "Часы"](/user_help/components/sluzhebnie/main_clock.php)
-[Журнал изменений](/user_help/components/sluzhebnie/event_list.php)
-
-[Описание компонентов решений](/user_help/description_decisions/index.php)
-
-[Дополнительно](/user_help/additional/index.php)
-
-[Компоненты](/user_help/components/index.php)
-
-[Служебные](/user_help/components/sluzhebnie/index.php)
-
-Элемент управления "Календарь"
-
-# Элемент управления "Календарь"
-
-### Описание **main.calendar**
-
-Компонент используется для ввода даты/времени. Компонент является стандартным и входит в дистрибутив модуля.
-
-В визуальном редакторе компонент расположен по пути: *Служебные > Элемент управления Календарь*.
-
-Компонент относится к [Главному модулю](/user_help/settings/settings/index.php).
-
-### Параметры
-
 |  |  |  |
-| --- | --- | --- |
-| **Поле** | **Параметр** | **Описание** |
-| **Основные параметры** | | |
-| Показывать элемент управления | **SHOW\_INPUT** | [Y|N] Параметр служит для выбора способа отображения календаря:  * **Y** - показывать иконки календаря с полем ввода; * **N** - показывать только иконки календаря. |
-| Имя формы | **FORM\_NAME** | Указывается имя формы календаря. |
-| Имя первого поля интервала | **INPUT\_NAME** | Указывается название переменной первого поля временного интервала. |
-| Имя второго поля интервала | **INPUT\_NAME\_FINISH** | Указывается название переменной второго поля временного интервала. |
-| Значение первого поля интервала | **INPUT\_VALUE** | Указывается значение по умолчанию первого поля временного интервала. |
-| Значение второго поля интервала | **INPUT\_VALUE\_FINISH** | Указывается значение по умолчанию второго поля временного интервала. |
-| Позволять вводить время | **SHOW\_TIME** | [Y|N] При отмеченной опции пользователь имеет возможность указать не только дату, но и время. |
-| Скрывать поле для ввода времени | **HIDE\_TIMEBAR** | [Y|N] При отмеченной опции поле для ввода времени будет скрыто. |
+| --- |
+
+| --- |
+| **Поле** |
+
+| **Описание** |
+| **Основные параметры** |
+
+| |
+| Показывать элемент управления |
+
+| [Y|N] Параметр служит для выбора способа отображения календаря:  * **Y** - показывать иконки календаря с полем ввода; * **N** - показывать только иконки календаря. |
+| Имя формы |
+
+| Указывается имя формы календаря. |
+| Имя первого поля интервала |
+
+| Указывается название переменной первого поля временного интервала. |
+| Имя второго поля интервала |
+
+| Указывается название переменной второго поля временного интервала. |
+| Значение первого поля интервала |
+
+| Указывается значение по умолчанию первого поля временного интервала. |
+| Значение второго поля интервала |
+
+| Указывается значение по умолчанию второго поля временного интервала. |
+| Позволять вводить время |
+
+| [Y|N] При отмеченной опции пользователь имеет возможность указать не только дату, но и время. |
+| Скрывать поле для ввода времени |
+
+| [Y|N] При отмеченной опции поле для ввода времени будет скрыто. |
 
 ### Пример вызова
 
 ```
-<?$APPLICATION->IncludeComponent("bitrix:main.calendar","",Array(
-     "SHOW_INPUT" => "Y",
-     "FORM_NAME" => "",
-     "INPUT_NAME" => "date_fld",
-     "INPUT_NAME_FINISH" => "date_fld_finish",
-     "INPUT_VALUE" => "",
-     "INPUT_VALUE_FINISH" => "", 
-     "SHOW_TIME" => "Y",
-     "HIDE_TIMEBAR" => "Y"
-	)
-);?>
+<?$APPLICATION->IncludeComponent("bitrix:main.calendar","",Array(
+
+     "SHOW_INPUT" => "Y",
+
+     "FORM_NAME" => "",
+
+     "INPUT_NAME" => "date_fld",
+
+     "INPUT_NAME_FINISH" => "date_fld_finish",
+
+     "INPUT_VALUE" => "",
+
+     "INPUT_VALUE_FINISH" => "", 
+
+     "SHOW_TIME" => "Y",
+
+     "HIDE_TIMEBAR" => "Y"
+
+	)
+
+);?>
+
 
 ```
 
@@ -128,9 +67,63 @@
 
 | 3  **c0013r** 10.09.2012 10:39:53 |
 | --- |
-| Для того, чтобы добавить какие-то атрибуты к полю ввода можно воспользоваться параметром компонента INPUT\_ADDITIONAL\_ATTR.  Например:   | Код | | --- | | ``` <?  $APPLICATION->IncludeComponent('bitrix:main.calendar', '', Array(       'SHOW_INPUT' => 'Y',       'FORM_NAME' => '',       'INPUT_NAME' => 'date_fld',       'INPUT_NAME_FINISH" => 'date_fld_finish',       'INPUT_VALUE' => '',       'INPUT_VALUE_FINISH' => '',        'SHOW_TIME' => 'Y',        'HIDE_TIMEBAR' => 'Y',        'INPUT_ADDITIONAL_ATTR' => 'placeholder="дд.мм.гггг"'    ) ); ?>  ``` | |
+| Для того, чтобы добавить какие-то атрибуты к полю ввода можно воспользоваться параметром компонента INPUT\_ADDITIONAL\_ATTR.  Например:   |
+
+| | --- | | ``` <? 
+ $APPLICATION->IncludeComponent('bitrix:main.calendar', '', Array(
+       'SHOW_INPUT' => 'Y',
+       'FORM_NAME' => '',
+       'INPUT_NAME' => 'date_fld',
+       'INPUT_NAME_FINISH" => 'date_fld_finish',
+       'INPUT_VALUE' => '',
+       'INPUT_VALUE_FINISH' => '', 
+       'SHOW_TIME' => 'Y', 
+       'HIDE_TIMEBAR' => 'Y', 
+       'INPUT_ADDITIONAL_ATTR' => 'placeholder="дд.мм.гггг"'
+    )
+ );
+ ?>
+  ``` | |
 |  |
 
-© «Битрикс», 2001-2025, «1С-Битрикс», 2025
+```
+<?$APPLICATION->IncludeComponent("bitrix:main.calendar","",Array(
 
-Наверх
+     "SHOW_INPUT" => "Y",
+
+     "FORM_NAME" => "",
+
+     "INPUT_NAME" => "date_fld",
+
+     "INPUT_NAME_FINISH" => "date_fld_finish",
+
+     "INPUT_VALUE" => "",
+
+     "INPUT_VALUE_FINISH" => "", 
+
+     "SHOW_TIME" => "Y",
+
+     "HIDE_TIMEBAR" => "Y"
+
+	)
+
+);?>
+
+
+```
+
+``` <? 
+ $APPLICATION->IncludeComponent('bitrix:main.calendar', '', Array(
+       'SHOW_INPUT' => 'Y',
+       'FORM_NAME' => '',
+       'INPUT_NAME' => 'date_fld',
+       'INPUT_NAME_FINISH" => 'date_fld_finish',
+       'INPUT_VALUE' => '',
+       'INPUT_VALUE_FINISH' => '', 
+       'SHOW_TIME' => 'Y', 
+       'HIDE_TIMEBAR' => 'Y', 
+       'INPUT_ADDITIONAL_ATTR' => 'placeholder="дд.мм.гггг"'
+    )
+ );
+ ?>
+  ```

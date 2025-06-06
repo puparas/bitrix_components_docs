@@ -1,127 +1,23 @@
-# Создание и редактирование рассылки
-
-Документация для разработчиков
-
-[Документация для разработчиков](https://dev.1c-bitrix.ru/api_help/)
-[Документация по D7](https://dev.1c-bitrix.ru/api_d7/)
-[Документация по REST](https://dev.1c-bitrix.ru/rest_help/)
-[Пользовательская документация](https://dev.1c-bitrix.ru/user_help/)
-
-Темная тема
-
-[Основные сведения](/user_help/index.php)
-[Реализация и системные требования](/user_help/reqintro.php)
-
-[Справочная система и документация](/user_help/help/index.php)
-
-[Контент](/user_help/content/index.php)
-
-[Сайты 24](/user_help/sites24/index.php)
-
-[Маркетинг](/user_help/marketing/index.php)
-
-[Магазин](/user_help/store/index.php)
-
-[Клиенты](/user_help/clients/index.php)
-
-[Сервисы](/user_help/service/index.php)
-
-[Бизнес-процессы](/user_help/service/bizproc/index.php)
-
-[Блоги](/user_help/service/blogs/index.php)
-
-[Веб-мессенджер](/user_help/service/im/index.php)
-
-[Веб-формы](/user_help/service/form/index.php)
-
-[Видеоконференциии (КП)](/user_help/service/video/index.php)
-
-[Внешние источники данных (КП)](/user_help/service/xdi/index.php)
-
-[Интранет (КП)](/user_help/service/intranet/index.php)
-
-[Календарь событий](/user_help/service/event_calendar/index.php)
-
-[Конструктор отчетов (КП)](/user_help/service/report/index.php)
-
-[Экстранет (КП)](/user_help/service/extranet/index.php)
-
-[Контроллер](/user_help/service/controller/index.php)
-
-[Менеджер идей](/user_help/service/idea/index.php)
-
-[Опросы, голосования](/user_help/service/vote/index.php)
-
-[Обучение](/user_help/service/learning/index.php)
-
-[Подписка, рассылки](/user_help/service/subscribe/index.php)
-
-[Подписка, рассылки. Настройки модуля](/user_help/service/subscribe/settings.php)
-[Список рассылок](/user_help/service/subscribe/rubric_admin.php)
-[Создание и редактирование рассылки](/user_help/service/subscribe/rubric_edit.php)
-[Проверка шаблона рассылки](/user_help/service/subscribe/template_test.php)
-[Список выпусков](/user_help/service/subscribe/posting_admin.php)
-[Создание и редактирование выпуска](/user_help/service/subscribe/posting_edit.php)
-[Подписчики](/user_help/service/subscribe/subscr_admin.php)
-[Создание и редактирование подписчика](/user_help/service/subscribe/subscr_edit.php)
-[Импорт адресов](/user_help/service/subscribe/subscr_import.php)
-
-[Типичные задачи](/user_help/service/subscribe/sample/index.php)
-
-[Почта](/user_help/service/mail/index.php)
-
-[Рейтинги](/user_help/service/rating/index.php)
-
-[Смайлы](/user_help/service/smile/index.php)
-
-[Социальная сеть (КП)](/user_help/service/socialnetwork/index.php)
-
-[Социальные сервисы](/user_help/service/socialservices/index.php)
-
-[Стикеры](/user_help/service/stickers/index.php)
-
-[Техподдержка](/user_help/service/support/index.php)
-
-[Учет рабочего времени (КП)](/user_help/service/timeman/index.php)
-
-[Форум](/user_help/service/forum/index.php)
-
-[CRM (КП)](/user_help/service/crm/index.php)
-
-[Веб-аналитика](/user_help/statistic/index.php)
-
-[Marketplace](/user_help/marketplace/index.php)
-
-[Настройки](/user_help/settings/index.php)
-
-[Компоненты](/user_help/components/index.php)
-
-[Описание компонентов решений](/user_help/description_decisions/index.php)
-
-[Дополнительно](/user_help/additional/index.php)
-
-[Сервисы](/user_help/service/index.php)
-
-[Подписка, рассылки](/user_help/service/subscribe/index.php)
-
-Создание и редактирование рассылки
-
-**Недоступно в редакциях:**Старт
-
-# Создание и редактирование рассылки
-
-### Закладка Рассылка
-
 | Поле | Описание |
-| --- | --- |
+| --- |
+
+|
 | Активна | Статус активности рассылки. Если рассылка активна, пользователи могут подписаться на нее. |
-| Выводить в списке публичных рассылок | Разрешается или запрещается показ ссылки для подписки на данную рассылку в публичном разделе сайта. |
+| Выводить в списке публичных рассылок |
+
+|
 | Показывать рассылку на сайте | Сайт рассылки. |
-| \*Название | Название рассылки, отображаемое посетителям. |
+| \*Название |
+
+|
 | Сортировка | Вес сортировки списка рассылки. Чем больше это значение, тем выше в списке, показываемом посетителям, располагается эта рассылка. |
-| Символьный код | Символьный код рассылки. |
+| Символьный код |
+
+|
 | Описание для подписчиков (до 2000 симв.) | Описание рассылки, отображаемое посетителям сайта. Старайтесь создавать описание, краткое по объему и емкое по содержанию. |
-| Автоматическая (выпуски формируются по расписанию и на основании шаблонов) | Создаваемая рассылка станет автоматической. Выпуски такой рассылки будут генерироваться автоматически на основании выбранного шаблона и отправляться подписчикам по заданному расписанию. |
+| Автоматическая (выпуски формируются по расписанию и на основании шаблонов) |
+
+|
 
 \* - поле, обязательное для заполнения.
 
@@ -130,15 +26,25 @@
 Вкладка доступна только при создании/редактировании автоматической рассылки.
 
 | Поле | Описание |
-| --- | --- |
+| --- |
+
+|
 | Расписание | |
-| \*Время последней генерации выпуска (DD.MM.YYYY HH:MI:SS) | Дата и время последней генерации сообщений автоматической рассылки.   При создании новой автоматической рассылки в поле будет подставлена дата и время создания рассылки.   Значение поля используется для задания даты, начиная с которой сообщения автоматической рассылки будут генерироваться и рассылаться. |
+| \*Время последней генерации выпуска (DD.MM.YYYY HH:MI:SS) |
+
+|
 | Дни месяца (например 1,10-20,25) | Список чисел месяца, по которым будет происходить автоматическая генерация выпусков рассылки. Возможно указание как отдельных дат через запятую (например: 1,8,10), так и диапазона дат (например: 19-25, 27-30). |
-| Дни недели | Дни недели для выпуска рассылки. **Примечание:** Необходимо задать значение хотя бы одного из параметров: **дней недели** либо **чисел месяца**.   Если одновременно были заданы и **дни недели**, и **числа месяца**, то генерация выпусков будет происходить при календарном совпадении данных параметров. Например, если был выбран день недели **Пт** и задано число месяца **10**, то генерация выпусков будет происходить в том случае, если десятое число месяца выпадает на пятницу. |
+| Дни недели |
+
+|
 | \*Время (например 9:00,18:00) | Время, когда будет автоматически генерироваться выпуск рассылки. Возможно указание списка значений (например: 8:00, 16:00, 24:00). |
-| **Шаблон для автоматической генерации выпусков** | |
+| **Шаблон для автоматической генерации выпусков** |
+
+|
 | \*Доступные шаблоны | Выбор шаблонов из доступных, на основании которого будут автоматически генерироваться выпуски данной рассылки.   Если доступные шаблоны отсутствуют, то будет выведено сообщение: **Не найдено ни одного шаблона для автоматической генерации выпусков**.   Шаблоны для автоматической генерации выпусков могут быть созданы с использованием **API** функций продукта (см. класс [CPostingTemplate](http://dev.1c-bitrix.ru/api_help/subscribe/classes/cpostingtemplate/index.php)). По умолчанию шаблоны для автоматической генерации выпусков лежат в директории `/bitrix/php_interface/subscribe/templates`. Для поддержки версионности при разработке сайта в ядре 14.0.1 была введена поддержка папки [/local](https://dev.1c-bitrix.ru/learning/course/?COURSE_ID=43&LESSON_ID=5119#local), что облегчает совместную разработку сайта.   С версии 16.5 модуля "Подписка, Рассылки" шаблоны для автоматической генерации выпусков можно хранить в папке `/local/php_interface/subscribe/templates`. Приоритет всегда у папки `/local` перед `/bitrix`, т.е если в`/local/php_interface/subscribe/templates` и`/bitrix/php_interface/subscribe/templates` будут находиться шаблоны с одинаковым названием, то шаблон будет выбираться из папки `/local`. |
-| Поля письма | |
+| Поля письма |
+
+|
 | \*От кого | Адрес отправителя, который будет подставляться в поле **От кого** автоматически сгенерированных сообщений рассылки.   По умолчанию поле имеет значение, заданное на странице настроек модуля **Рассылки**. |
 
 \* - поле, обязательное для заполнения.
@@ -153,14 +59,18 @@
 
 | 1  **Роберт Басыров** 29.05.2009 15:23:22 |
 | --- |
-| Для добавления в автоматически генерируемую рассылку ссылку на отписку от нее необходимо сделать следующее:  В файл */bitrix/php\_interface/init.php* добавить:  | Код | | --- | | ``` // регистрируем обработчик AddEventHandler("subscribe", "BeforePostingSendMail", Array("MyClass2", "BeforePostingSendMailHandler"));class MyClass2 {     // создаем обработчик события "BeforePostingSendMail"     function BeforePostingSendMailHandler($arFields)     {    $USER_NAME = "Подписчик";    //Попробуем найти подписчика.    $rs = CSubscription::GetByEmail($arFields["EMAIL"]);    if($ar = $rs->Fetch())    {       if(intval($ar["USER_ID"]) > 0)       {          $rsUser = CUser::GetByID($ar["USER_ID"]);          if($arUser = $rsUser->Fetch())          {             $USER_NAME = $arUser["LAST_NAME"]." ".$arUser["NAME"]." ".$arUser["SECOND_NAME"];          }       }    }    $arFields["BODY"] = str_replace("#NAME#", $USER_NAME, $arFields["BODY"]);    $arFields["BODY"] = str_replace("#CONFIRM_CODE#", $ar["CONFIRM_CODE"], $arFields["BODY"]);    $arFields["BODY"] = str_replace("#ID#", $ar["ID"], $arFields["BODY"]);    return $arFields;     } }  ``` |  в файл */bitrix/php\_interface/subscribe/templates/news/tem plate.php* добавить:  | Код | | --- | | ``` Отписаться от рассылки: <a href="http://www.domen.ru/subscribe/subscr_...</a>  ``` | |
+| Для добавления в автоматически генерируемую рассылку ссылку на отписку от нее необходимо сделать следующее:  В файл */bitrix/php\_interface/init.php* добавить:  |
+
+| | --- | | ``` // регистрируем обработчик AddEventHandler("subscribe", "BeforePostingSendMail", Array("MyClass2", "BeforePostingSendMailHandler"));class MyClass2 {     // создаем обработчик события "BeforePostingSendMail"     function BeforePostingSendMailHandler($arFields)     {    $USER_NAME = "Подписчик";    //Попробуем найти подписчика.    $rs = CSubscription::GetByEmail($arFields["EMAIL"]);    if($ar = $rs->Fetch())    {       if(intval($ar["USER_ID"]) > 0)       {          $rsUser = CUser::GetByID($ar["USER_ID"]);          if($arUser = $rsUser->Fetch())          {             $USER_NAME = $arUser["LAST_NAME"]." ".$arUser["NAME"]." ".$arUser["SECOND_NAME"];          }       }    }    $arFields["BODY"] = str_replace("#NAME#", $USER_NAME, $arFields["BODY"]);    $arFields["BODY"] = str_replace("#CONFIRM_CODE#", $ar["CONFIRM_CODE"], $arFields["BODY"]);    $arFields["BODY"] = str_replace("#ID#", $ar["ID"], $arFields["BODY"]);    return $arFields;     } }  ``` |  в файл */bitrix/php\_interface/subscribe/templates/news/tem plate.php* добавить:  | Код | | --- | | ``` Отписаться от рассылки: <a href="http://www.domen.ru/subscribe/subscr_...</a>  ``` | |
 |  |
 
 | 1  **Роберт Басыров** 19.05.2009 10:40:20 |
 | --- |
-| Иногда возникает необходимость прикрепления определенного файла к автоматической рассылке. Например, автоматическая рассылка прайс-листов. Задачу можно решить через Cron, но если есть необходимость совместить рассылку с информацией с сайта, то лучше это реализовать изменением шаблона рассылки. Для этого надо в шаблон добавить массив файлов, которые надо отправить.  Пример кода:   | Цитата | | --- | | return array(                  "SUBJECT"=>$SUBSCRIBE\_TEMPLATE\_RUB RIC["NAME"]                  ,"BODY\_TYPE"=>"html"                  ,"CHARSET"=>"Windows-1251"                  ,"DIRECT\_SEND"=>"Y"                  ,"FROM\_FIELD"=>$SUBSCRIBE\_TEMPLATE\_RUBRIC["FROM\_FIELD"]                  ,"FILES"=>Array("0"=>CFile::MakeFileArray("/path/to/file/file.zip"))  ); | |
+| Иногда возникает необходимость прикрепления определенного файла к автоматической рассылке. Например, автоматическая рассылка прайс-листов. Задачу можно решить через Cron, но если есть необходимость совместить рассылку с информацией с сайта, то лучше это реализовать изменением шаблона рассылки. Для этого надо в шаблон добавить массив файлов, которые надо отправить.  Пример кода:   |
+
+| | --- | | return array(                  "SUBJECT"=>$SUBSCRIBE\_TEMPLATE\_RUB RIC["NAME"]                  ,"BODY\_TYPE"=>"html"                  ,"CHARSET"=>"Windows-1251"                  ,"DIRECT\_SEND"=>"Y"                  ,"FROM\_FIELD"=>$SUBSCRIBE\_TEMPLATE\_RUBRIC["FROM\_FIELD"]                  ,"FILES"=>Array("0"=>CFile::MakeFileArray("/path/to/file/file.zip"))  ); | |
 |  |
 
-© «Битрикс», 2001-2025, «1С-Битрикс», 2025
+``` // регистрируем обработчик AddEventHandler("subscribe", "BeforePostingSendMail", Array("MyClass2", "BeforePostingSendMailHandler"));class MyClass2 {     // создаем обработчик события "BeforePostingSendMail"     function BeforePostingSendMailHandler($arFields)     {    $USER_NAME = "Подписчик";    //Попробуем найти подписчика.    $rs = CSubscription::GetByEmail($arFields["EMAIL"]);    if($ar = $rs->Fetch())    {       if(intval($ar["USER_ID"]) > 0)       {          $rsUser = CUser::GetByID($ar["USER_ID"]);          if($arUser = $rsUser->Fetch())          {             $USER_NAME = $arUser["LAST_NAME"]." ".$arUser["NAME"]." ".$arUser["SECOND_NAME"];          }       }    }    $arFields["BODY"] = str_replace("#NAME#", $USER_NAME, $arFields["BODY"]);    $arFields["BODY"] = str_replace("#CONFIRM_CODE#", $ar["CONFIRM_CODE"], $arFields["BODY"]);    $arFields["BODY"] = str_replace("#ID#", $ar["ID"], $arFields["BODY"]);    return $arFields;     } }  ```
 
-Наверх
+``` Отписаться от рассылки: <a href="http://www.domen.ru/subscribe/subscr_...</a>  ```

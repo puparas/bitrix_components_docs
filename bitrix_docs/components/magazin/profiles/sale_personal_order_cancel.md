@@ -1,141 +1,38 @@
-# Отмена заказа
-
-Документация для разработчиков
-
-[Документация для разработчиков](https://dev.1c-bitrix.ru/api_help/)
-[Документация по D7](https://dev.1c-bitrix.ru/api_d7/)
-[Документация по REST](https://dev.1c-bitrix.ru/rest_help/)
-[Пользовательская документация](https://dev.1c-bitrix.ru/user_help/)
-
-Темная тема
-
-[Основные сведения](/user_help/index.php)
-[Реализация и системные требования](/user_help/reqintro.php)
-
-[Справочная система и документация](/user_help/help/index.php)
-
-[Контент](/user_help/content/index.php)
-
-[Сайты 24](/user_help/sites24/index.php)
-
-[Маркетинг](/user_help/marketing/index.php)
-
-[Магазин](/user_help/store/index.php)
-
-[Клиенты](/user_help/clients/index.php)
-
-[Сервисы](/user_help/service/index.php)
-
-[Веб-аналитика](/user_help/statistic/index.php)
-
-[Marketplace](/user_help/marketplace/index.php)
-
-[Настройки](/user_help/settings/index.php)
-
-[Компоненты](/user_help/components/index.php)
-
-[CRM (КП)](/user_help/components/crm/index.php)
-
-[Корпоративный портал (КП)](/user_help/components/intranet/index.php)
-
-[Сайты 24](/user_help/components/landing/index.php)
-
-[Контент](/user_help/components/content/index.php)
-
-[Сервисы](/user_help/components/services/index.php)
-
-[Общение](/user_help/components/obschenie/index.php)
-
-[Магазин](/user_help/components/magazin/index.php)
-
-[Аффилиаты](/user_help/components/magazin/affiliates/index.php)
-
-[Корзина](/user_help/components/magazin/basket/index.php)
-
-[Процедура заказа](/user_help/components/magazin/zakaz/index.php)
-
-[Рекомендуемые товары](/user_help/components/magazin/recommended/index.php)
-
-[Список профилей текущего пользователя](/user_help/components/magazin/profiles/index.php)
-
-[Вывод полей заказа](/user_help/components/magazin/profiles/sale_business_value_mail.php)
-[Добавление средств на счет текущего пользователя](/user_help/components/magazin/profiles/sale_account_pay.php)
-[Заказы пользователя (комплексный компонент)](/user_help/components/magazin/profiles/sale_personal_order.php)
-[Накопительные программы](/user_help/components/magazin/profiles/program.php)
-[Отмена заказа](/user_help/components/magazin/profiles/sale_personal_order_cancel.php)
-[Отмена подписки](/user_help/components/magazin/profiles/sale_personal_subscribe_cancel.php)
-[Персональный раздел пользователя](/user_help/components/magazin/profiles/sale_personal_section.php)
-[Пластиковые карты пользователя (комплексный компонент)](/user_help/components/magazin/profiles/sale_personal_cc.php)
-[Подписки пользователя (комплексный компонент)](/user_help/components/magazin/profiles/sale_personal_subscribe.php)
-[Подробная информация о заказе](/user_help/components/magazin/profiles/sale_personal_order_detail.php)
-[Подробная информация о заказе для почты](/user_help/components/magazin/profiles/sale_personal_order_detail_mail.php)
-[Профили пользователя (комплексный компонент)](/user_help/components/magazin/profiles/sale_personal_profile.php)
-[Редактирование пластиковых карт](/user_help/components/magazin/profiles/sale_personal_cc_detail.php)
-[Редактирование профиля](/user_help/components/magazin/profiles/sale_personal_profile_detail.php)
-[Список заказов](/user_help/components/magazin/profiles/sale_personal_order_list.php)
-[Список пластиковых карт текущего пользователя](/user_help/components/magazin/profiles/sale_personal_cc_list.php)
-[Список подписок текущего пользователя](/user_help/components/magazin/profiles/sale_personal_subscribe_list.php)
-[Список профилей текущего пользователя](/user_help/components/magazin/profiles/sale_personal_profile_list.php)
-[Счета текущего пользователя](/user_help/components/magazin/profiles/sale_personal_account.php)
-
-[Экспорт заказов](/user_help/components/magazin/export_zakaz/index.php)
-
-[Информация о товарах](/user_help/components/magazin/information_tovars/index.php)
-
-[Склады](/user_help/components/magazin/sklads/index.php)
-
-[Служебные](/user_help/components/sluzhebnie/index.php)
-
-[Описание компонентов решений](/user_help/description_decisions/index.php)
-
-[Дополнительно](/user_help/additional/index.php)
-
-[Компоненты](/user_help/components/index.php)
-
-[Магазин](/user_help/components/magazin/index.php)
-
-[Список профилей текущего пользователя](/user_help/components/magazin/profiles/index.php)
-
-Отмена заказа
-
-**Недоступно в редакциях:**Стандарт, Старт
-
-# Отмена заказа
-
-### Описание **sale.personal.order.cancel**
-
-Одностраничный компонент позволяет отменить заказ. Компонент стандартный и входит в дистрибутив модуля.
-
-В визуальном редакторе компонент расположен по пути: *Магазин > Персональный раздел > Отмена заказа*.
-
-### Параметры
-
 |  |  |  |
-| --- | --- | --- |
-| **Поле** | **Параметр** | **Описание** |
-| **Дополнительные настройки** | | |
-| Страница со списком заказов | **PATH\_TO\_LIST** | Указывается путь к странице со списком заказов. Если страница находится в текущей директории, то достаточно указать ее название. Страница может быть создана с помощью компонента [Список заказов](/user_help/store/sale/components_2/personal/sale_personal_order_list.php). |
-| Страница с подробной информацией о заказе | **PATH\_TO\_DETAIL** | Указывается путь к странице с детальной информацией о заказе. Если страница находится в текущей директории, то достаточно указать ее название. Страница может быть создана с помощью компонента [Подробная информация о заказе](/user_help/store/sale/components_2/personal/sale_personal_order_detail.php). Необходимо передавать идентификатор заказа в качестве параметра. |
-| Устанавливать заголовок страницы | **SET\_TITLE** | [Y|N] При отмеченной опции в качестве заголовка страницы будет установлено **Отмена заказа № <идентификатор\_заказа>**. |
-| Идентификатор заказа | **ID** | Указывается код, результатом которого является получение идентификатора заказа. По умолчанию **={$ID}**. |
+| --- |
 
-### Пример вызова
+| --- |
+| **Поле** |
+
+| **Описание** |
+| **Дополнительные настройки** |
+
+| |
+| Страница со списком заказов |
+
+| Указывается путь к странице со списком заказов. Если страница находится в текущей директории, то достаточно указать ее название. Страница может быть создана с помощью компонента [Список заказов](/user_help/store/sale/components_2/personal/sale_personal_order_list.php). |
+| Страница с подробной информацией о заказе |
+
+| Указывается путь к странице с детальной информацией о заказе. Если страница находится в текущей директории, то достаточно указать ее название. Страница может быть создана с помощью компонента [Подробная информация о заказе](/user_help/store/sale/components_2/personal/sale_personal_order_detail.php). Необходимо передавать идентификатор заказа в качестве параметра. |
+| Устанавливать заголовок страницы |
+
+| [Y|N] При отмеченной опции в качестве заголовка страницы будет установлено **Отмена заказа № <идентификатор\_заказа>**. |
+| Идентификатор заказа |
 
 ```
-<?$APPLICATION->IncludeComponent("bitrix:sale.personal.order.cancel","",Array(
-		"PATH_TO_LIST" => "order_list.php",
-		"PATH_TO_DETAIL" => "order_detail.php?ID=#ID#",
-		"ID" => $ID,
-		"SET_TITLE" => "Y"
-	)
-);?>
+<?$APPLICATION->IncludeComponent("bitrix:sale.personal.order.cancel","",Array(
+
+		"PATH_TO_LIST" => "order_list.php",
+
+		"PATH_TO_DETAIL" => "order_detail.php?ID=#ID#",
+
+		"ID" => $ID,
+
+		"SET_TITLE" => "Y"
+
+	)
+
+);?>
+
 
 ```
-
-Новинки документации в соцсетях:
-
-#### Пользовательские комментарииПомните, что Пользовательские комментарии, несмотря на модерацию, не являются официальной документацией. Ответственность за их использование несет сам пользователь. Также Пользовательские комментарии не являются местом для обсуждения функционала. По подобным вопросам обращайтесь на [форумы](http://dev.1c-bitrix.ru/community/forums/group1/).
-
-© «Битрикс», 2001-2025, «1С-Битрикс», 2025
-
-Наверх

@@ -1,88 +1,11 @@
-# Баннерная реклама. Настройки модуля
-
-Документация для разработчиков
-
-[Документация для разработчиков](https://dev.1c-bitrix.ru/api_help/)
-[Документация по D7](https://dev.1c-bitrix.ru/api_d7/)
-[Документация по REST](https://dev.1c-bitrix.ru/rest_help/)
-[Пользовательская документация](https://dev.1c-bitrix.ru/user_help/)
-
-Темная тема
-
-[Основные сведения](/user_help/index.php)
-[Реализация и системные требования](/user_help/reqintro.php)
-
-[Справочная система и документация](/user_help/help/index.php)
-
-[Контент](/user_help/content/index.php)
-
-[Сайты 24](/user_help/sites24/index.php)
-
-[Маркетинг](/user_help/marketing/index.php)
-
-[A/B-тестирование](/user_help/marketing/ab_testing/index.php)
-
-[Автоконтекст](/user_help/marketing/context_adv/index.php)
-
-[Товарный маркетинг](/user_help/marketing/discounts/index.php)
-
-[Email-маркетинг](/user_help/marketing/sender/index.php)
-
-[Триггерные рассылки](/user_help/marketing/triggered_emails/index.php)
-
-[Поисковая оптимизация](/user_help/marketing/seo/index.php)
-
-[Баннерная реклама](/user_help/marketing/advertising/index.php)
-
-[Контракты](/user_help/marketing/advertising/adv_contract_list.php)
-[Создание и редактирование рекламного контракта](/user_help/marketing/advertising/adv_contract_edit.php)
-[Типы баннеров](/user_help/marketing/advertising/adv_type_list.php)
-[Создание и редактирование типа баннеров](/user_help/marketing/advertising/adv_type_edit.php)
-[Баннеры](/user_help/marketing/advertising/adv_banner_list.php)
-[Создание и редактирование баннера](/user_help/marketing/advertising/adv_banner_edit.php)
-[Баннерная реклама. Настройки модуля](/user_help/marketing/advertising/settings.php)
-[Графики](/user_help/marketing/advertising/adv_graph_list.php)
-[Диаграммы](/user_help/marketing/advertising/adv_diagram_list.php)
-[Частые вопросы](/user_help/marketing/advertising/faq.php)
-
-[Пульс конверсии](/user_help/marketing/conversion_pulse.php)
-[Бизнес модель интернет-магазина](/user_help/marketing/web_store_business_model.php)
-[Реклама](/user_help/marketing/ads.php)
-
-[Магазин](/user_help/store/index.php)
-
-[Клиенты](/user_help/clients/index.php)
-
-[Сервисы](/user_help/service/index.php)
-
-[Веб-аналитика](/user_help/statistic/index.php)
-
-[Marketplace](/user_help/marketplace/index.php)
-
-[Настройки](/user_help/settings/index.php)
-
-[Компоненты](/user_help/components/index.php)
-
-[Описание компонентов решений](/user_help/description_decisions/index.php)
-
-[Дополнительно](/user_help/additional/index.php)
-
-[Маркетинг](/user_help/marketing/index.php)
-
-[Баннерная реклама](/user_help/marketing/advertising/index.php)
-
-Баннерная реклама. Настройки модуля
-
-**Недоступно в редакциях:**Малый бизнес, Стандарт, Старт
-
-# Баннерная реклама. Настройки модуля
-
-### Доступ
-
 | Поле | Описание |
-| --- | --- |
+| --- |
+
+|
 | По умолчанию | Управление уровнем доступа групп пользователей, для которых установлено право "по умолчанию". |
-| [группа\_пользователей] | Управление правом доступа для конкретной группы. Возможно назначение следующих прав доступа к модулю **Реклама, баннеры**:  * **[D] доступ закрыт** - доступ запрещён; * **[R] рекламодатель** - доступ к меню и административным файлам открыт, пользователь видит только те контракты и принадлежащие им баннеры, на которые у него есть соответствующие права. Данный уровень прав используется для групп рекламодателей, размещающих свои баннеры на вашем сайте; * **[T] менеджер баннеров** - доступ к управлению всеми баннерами системы (вне зависимости от контракта); * **[V] демо-доступ** - пользователь видит все контракты, типы баннеров, баннеры, может строить любые графики, но без права модификации чего-либо (право обычно используется в демонстрационном режиме, когда пользователь может все видеть, но не имеет права что либо изменять); * **[W] администратор рекламы** - полный доступ, без каких либо ограничений. |
+| [группа\_пользователей] |
+
+|
 
 Новинки документации в соцсетях:
 
@@ -92,7 +15,3 @@
 | --- |
 | Для доступа к статистике и баннерам недостаточно прав "рекламодатель". Нужно обязательно дать права на чтение файлов панели управления. В новых версиях БУС эти права уже даны группе "Пользователи панели управления". |
 |  |
-
-© «Битрикс», 2001-2025, «1С-Битрикс», 2025
-
-Наверх

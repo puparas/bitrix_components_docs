@@ -1,135 +1,27 @@
-# Сопутствующие заказу товары
-
-Документация для разработчиков
-
-[Документация для разработчиков](https://dev.1c-bitrix.ru/api_help/)
-[Документация по D7](https://dev.1c-bitrix.ru/api_d7/)
-[Документация по REST](https://dev.1c-bitrix.ru/rest_help/)
-[Пользовательская документация](https://dev.1c-bitrix.ru/user_help/)
-
-Темная тема
-
-[Основные сведения](/user_help/index.php)
-[Реализация и системные требования](/user_help/reqintro.php)
-
-[Справочная система и документация](/user_help/help/index.php)
-
-[Контент](/user_help/content/index.php)
-
-[Сайты 24](/user_help/sites24/index.php)
-
-[Маркетинг](/user_help/marketing/index.php)
-
-[Магазин](/user_help/store/index.php)
-
-[Клиенты](/user_help/clients/index.php)
-
-[Сервисы](/user_help/service/index.php)
-
-[Веб-аналитика](/user_help/statistic/index.php)
-
-[Marketplace](/user_help/marketplace/index.php)
-
-[Настройки](/user_help/settings/index.php)
-
-[Компоненты](/user_help/components/index.php)
-
-[CRM (КП)](/user_help/components/crm/index.php)
-
-[Корпоративный портал (КП)](/user_help/components/intranet/index.php)
-
-[Сайты 24](/user_help/components/landing/index.php)
-
-[Контент](/user_help/components/content/index.php)
-
-[Сервисы](/user_help/components/services/index.php)
-
-[Общение](/user_help/components/obschenie/index.php)
-
-[Магазин](/user_help/components/magazin/index.php)
-
-[Аффилиаты](/user_help/components/magazin/affiliates/index.php)
-
-[Корзина](/user_help/components/magazin/basket/index.php)
-
-[Процедура заказа](/user_help/components/magazin/zakaz/index.php)
-
-[Рекомендуемые товары](/user_help/components/magazin/recommended/index.php)
-
-[Список профилей текущего пользователя](/user_help/components/magazin/profiles/index.php)
-
-[Экспорт заказов](/user_help/components/magazin/export_zakaz/index.php)
-
-[Информация о товарах](/user_help/components/magazin/information_tovars/index.php)
-
-[Выбор товара для получения подарка](/user_help/components/magazin/information_tovars/sale_gift_main_products.php)
-[Подарки к товарам в корзине](/user_help/components/magazin/information_tovars/sale_products_gift_basket.php)
-[Подарки к товарам в корзине (устаревший)](/user_help/components/magazin/information_tovars/sale_gift_basket.php)
-[Подарки к товарам конкретного раздела](/user_help/components/magazin/information_tovars/sale_products_gift_section.php)
-[Подарки к выбранному товару](/user_help/components/magazin/information_tovars/sale_products_gift.php)
-[Просмотренные товары](/user_help/components/magazin/information_tovars/catalog_products_viewed.php)
-[Рекомендуемые товары](/user_help/components/magazin/information_tovars/catalog_recommended_products.php)
-[Генерация купона на товар для почты](/user_help/components/magazin/information_tovars/sale_discount_coupon_mail.php)
-[Персональные рекомендации (почта)](/user_help/components/magazin/information_tovars/sale_bigdata_personal_mail.php)
-[Самые продаваемые товары](/user_help/components/magazin/information_tovars/sale_bestsellers.php)
-[Сопутствующие заказу товары](/user_help/components/magazin/information_tovars/sale_bigdata_followup_mail.php)
-[С этим товаром покупают](/user_help/components/magazin/information_tovars/sale_recommended_products.php)
-[Подписка на товары](/user_help/components/magazin/information_tovars/catalog_product_subscribe.php)
-[Список товаров на которые вы подписаны](/user_help/components/magazin/information_tovars/catalog_product_subscribe_list.php)
-[Подарки к товарам конкретного раздела (устаревший)](/user_help/components/magazin/information_tovars/sale_gift_section.php)
-
-[Склады](/user_help/components/magazin/sklads/index.php)
-
-[Служебные](/user_help/components/sluzhebnie/index.php)
-
-[Описание компонентов решений](/user_help/description_decisions/index.php)
-
-[Дополнительно](/user_help/additional/index.php)
-
-[Компоненты](/user_help/components/index.php)
-
-[Магазин](/user_help/components/magazin/index.php)
-
-[Информация о товарах](/user_help/components/magazin/information_tovars/index.php)
-
-Сопутствующие заказу товары
-
-**Недоступно в редакциях:**Стандарт, Старт
-
-# Сопутствующие заказу товары
-
-### Описание **sale.bigdata.followup.mail**
-
-Компонент выводит товары, сопутствующие ранее заказанным товарам. Компонент стандартный и входит в дистрибутив модуля.
-
-В визуальном редакторе компонент расположен по пути *Магазин > Информация о товарах > Сопутствующие заказу товары*.
-
-Компонент относится к модулю [Интернет-магазин](/user_help/store/sale/index.php).
-
-### Параметры
-
 |  |  |  |
-| --- | --- | --- |
-| **Поле** | **Параметр** | **Описание** |
-| **Дополнительные настройки** | | |
-| Код заказа | **ORDER\_ID** | Указывается идентификатор заказа с ранее заказанными товарами. |
+| --- |
 
-### Пример вызова
+| --- |
+| **Поле** |
+
+| **Описание** |
+| **Дополнительные настройки** |
+
+| |
+| Код заказа |
 
 ```
-<?$APPLICATION->IncludeComponent(
-	"bitrix:sale.bigdata.followup.mail",
-	"",
-	Array(
-		"ORDER_ID" => "{#ORDER_ID#}"
-	)
+<?$APPLICATION->IncludeComponent(
+
+	"bitrix:sale.bigdata.followup.mail",
+
+	"",
+
+	Array(
+
+		"ORDER_ID" => "{#ORDER_ID#}"
+
+	)
+
 );?>
 ```
-
-Новинки документации в соцсетях:
-
-#### Пользовательские комментарииПомните, что Пользовательские комментарии, несмотря на модерацию, не являются официальной документацией. Ответственность за их использование несет сам пользователь. Также Пользовательские комментарии не являются местом для обсуждения функционала. По подобным вопросам обращайтесь на [форумы](http://dev.1c-bitrix.ru/community/forums/group1/).
-
-© «Битрикс», 2001-2025, «1С-Битрикс», 2025
-
-Наверх
