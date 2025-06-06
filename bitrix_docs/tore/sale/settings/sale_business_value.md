@@ -1,0 +1,141 @@
+# Соответствие значений бизнес-смыслу
+
+Документация для разработчиков
+
+[Документация для разработчиков](https://dev.1c-bitrix.ru/api_help/)
+[Документация по D7](https://dev.1c-bitrix.ru/api_d7/)
+[Документация по REST](https://dev.1c-bitrix.ru/rest_help/)
+[Пользовательская документация](https://dev.1c-bitrix.ru/user_help/)
+
+Темная тема
+
+[Основные сведения](/user_help/index.php)
+[Реализация и системные требования](/user_help/reqintro.php)
+
+[Справочная система и документация](/user_help/help/index.php)
+
+[Контент](/user_help/content/index.php)
+
+[Сайты 24](/user_help/sites24/index.php)
+
+[Маркетинг](/user_help/marketing/index.php)
+
+[Магазин](/user_help/store/index.php)
+
+[Мастер магазина](/user_help/store/storeassist.php)
+
+[Интернет-магазин](/user_help/store/sale/index.php)
+
+[Интернет-магазин. Настройки модуля](/user_help/store/sale/settings_sale.php)
+[Конвертация интернет-магазина](/user_help/store/sale/sale_converter.php)
+[Интеграция с CRM](/user_help/store/sale/sale_crm.php)
+[Синхронизация заказов с Б24](/user_help/store/sale/sale_order_crm.php)
+
+[Заказы](/user_help/store/sale/orders/index.php)
+
+[Кассы ККМ](/user_help/store/sale/cashbox/index.php)
+
+[Покупатели](/user_help/store/sale/user_accounts/index.php)
+
+[Аффилиаты](/user_help/store/sale/affiliates/index.php)
+
+[Отчеты](/user_help/store/sale/statistic/index.php)
+
+[Настройки магазина](/user_help/store/sale/settings/index.php)
+
+[Платежные системы](/user_help/store/sale/settings/sale_pay_system.php)
+[Создание и редактирование платежной системы](/user_help/store/sale/settings/sale_pay_system_edit.php)
+[Настройка возвратов](/user_help/store/sale/settings/sale_ps_handler_refund.php)
+[Обработчики платежных систем](/user_help/store/sale/settings/sale_pay_system_file.php)
+[Компании](/user_help/store/sale/settings/sale_company.php)
+[Создание и редактирование компании](/user_help/store/sale/settings/sale_company_edit.php)
+[Типы плательщиков](/user_help/store/sale/settings/sale_person_type.php)
+[Создание и редактирование типа плательщика](/user_help/store/sale/settings/sale_person_type_edit.php)
+[Статусы](/user_help/store/sale/settings/sale_status.php)
+[Создание и редактирование информационного статуса заказа](/user_help/store/sale/settings/sale_status_edit.php)
+[Соответствие значений бизнес-смыслу](/user_help/store/sale/settings/sale_business_value.php)
+[Интеграция с 1С](/user_help/store/sale/settings/1c_admin.php)
+[Печатные формы](/user_help/store/sale/settings/print_form.php)
+[Единицы измерения](/user_help/store/sale/settings/cat_measure_list.php)
+[Создание и редактирование единицы измерения](/user_help/store/sale/settings/cat_measure_edit.php)
+
+[Экспорт](/user_help/store/sale/settings/export/index.php)
+
+[Импорт](/user_help/store/sale/settings/import/index.php)
+
+[Свойства заказа](/user_help/store/sale/settings/order_props/index.php)
+
+[Службы доставки](/user_help/store/sale/settings/delivery/index.php)
+
+[Местоположения](/user_help/store/sale/settings/location2/index.php)
+
+[Налоги](/user_help/store/sale/settings/tax/index.php)
+
+[Торговые платформы](/user_help/store/sale/settings/trandingplatforms/index.php)
+
+[Цены](/user_help/store/sale/settings/prices/index.php)
+
+[Торговый каталог](/user_help/store/catalog/index.php)
+
+[Клиенты](/user_help/clients/index.php)
+
+[Сервисы](/user_help/service/index.php)
+
+[Веб-аналитика](/user_help/statistic/index.php)
+
+[Marketplace](/user_help/marketplace/index.php)
+
+[Настройки](/user_help/settings/index.php)
+
+[Компоненты](/user_help/components/index.php)
+
+[Описание компонентов решений](/user_help/description_decisions/index.php)
+
+[Дополнительно](/user_help/additional/index.php)
+
+[Магазин](/user_help/store/index.php)
+
+[Интернет-магазин](/user_help/store/sale/index.php)
+
+[Настройки магазина](/user_help/store/sale/settings/index.php)
+
+Соответствие значений бизнес-смыслу
+
+**Недоступно в редакциях:**Стандарт, Старт
+
+# Соответствие значений бизнес-смыслу
+
+### Форма настройки соответствий
+
+Форма состоит из нескольких закладок:
+
+* закладки **По умолчанию** – на ней настраиваются соответствия, используемые по умолчанию для всех сущностей магазина для всех типов плательщиков.
+* закладок, соответствующих используемым в сущностях магазина типам плательщиков – в них выполняются индивидуальные настройки в соответствии с типом плательщика. Поля с настройками такие же, как и на закладке **По умолчанию**. Причем, если для поля отмечена опция **По умолчанию**, то его значение берется из соответствующего поля с первой закладки.
+
+Перечень отображаемых полей на закладках зависит от имеющихся и настроенных у вас сущностей магазина (платежных систем, профилей 1С). Настройка каждого поля интуитивно понятна из названия и выполняется в соответствии с вашими потребностями.
+
+Так, поля в секции **Стили** позволяют подставлять свой фон и задать отступы в счетах. Поля секции **Колонки** позволяют указать, отображать ли колонку в счете и задать порядок ее сортировки и название. Поля секция **Основная** определяют ключевые параметры самого счета. Все настройки перечисленных трех секций по умолчанию наследуются для всех платежных систем, которые имеют тип оплаты счет.
+
+Секции с названиями вида **Настройки подключения *название\_платежной\_системы*** содержат настройки обработчиков соответствующих платежных систем. В секции **Оплаты** задаются соответствия колонок оплат. Настройка полей для данных по покупателю и продавцу выполняется в секциях **Покупатель** и **Продавец** соответственно. Дополнительные настройки для платежных систем выполняются в секции **Остальные свойства платежных систем**.
+
+При настройке бизнес-смыслов для 1С на закладках формы отображаются настройки соответствий профилей заказа, которые располагаются на странице [Интеграция с 1С](/user_help/store/sale/settings/1c_admin.php).
+
+В результате все указанные вами соответствия будут отображаться в формах редактирования сущностей магазина.
+
+<!--
+<h4>
+Кнопка управления
+
+| Кнопка | Описание |
+| --- | --- |
+| Применить | Сохранение внесённых изменений. |
+
+--!>
+
+Новинки документации в соцсетях:
+
+#### Пользовательские комментарииПомните, что Пользовательские комментарии, несмотря на модерацию, не являются официальной документацией. Ответственность за их использование несет сам пользователь. Также Пользовательские комментарии не являются местом для обсуждения функционала. По подобным вопросам обращайтесь на [форумы](http://dev.1c-bitrix.ru/community/forums/group1/).
+
+© «Битрикс», 2001-2025, «1С-Битрикс», 2025
+
+Наверх
